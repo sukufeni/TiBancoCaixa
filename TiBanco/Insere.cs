@@ -8,5 +8,6 @@ namespace TiBanco
 {
     class Insere
     {
+
     }
 }

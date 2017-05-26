@@ -21,5 +21,12 @@ namespace TiBanco
         {
             this.Close();
         }
+
+        private void btnArquivoTexto_Click(object sender, EventArgs e)
+        {
+            ManipulaArquivo arquivo = new ManipulaArquivo();
+            Ordenacao ordena = new Ordenacao(arquivo.vetor);
+            arquivo.escreve(ordena.bubble);
+        }
     }
 }

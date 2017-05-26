@@ -43,6 +43,7 @@
             this.btnArquivoTexto.TabIndex = 0;
             this.btnArquivoTexto.Text = "Arq Texto";
             this.btnArquivoTexto.UseVisualStyleBackColor = true;
+            this.btnArquivoTexto.Click += new System.EventHandler(this.btnArquivoTexto_Click);
             // 
             // btnFechar
             // 
